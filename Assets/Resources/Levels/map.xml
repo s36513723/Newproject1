@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.10.31" orientation="orthogonal" renderorder="right-down" width="5" height="9" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="33" source="tileset.tsx"/>
+ <layer name="field" width="5" height="9">
+  <data encoding="csv">
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1,
+1,1,4,1,1
+</data>
+ </layer>
+ <layer name="field2" width="5" height="9">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <layer name="path" width="5" height="9">
+  <data encoding="csv">
+0,0,26,0,0,
+0,0,25,0,0,
+0,0,25,0,0,
+0,0,25,0,0,
+0,0,25,0,0,
+0,0,25,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+</map>
