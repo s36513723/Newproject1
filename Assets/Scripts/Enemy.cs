@@ -55,6 +55,8 @@ public class Enemy : Token
         _prev.y += Field.GetChipSize();
         // 一度 座標 を 更新 し て おく
         FixedUpdate();
+
+        
     }
 
     // アニメーション 更新 

@@ -57,7 +57,11 @@ public class Field : Token
         TMXLoader tmx = new TMXLoader();
         tmx.Load("Levels/map");
         // 経路 レイヤー を 取得 
+        
+
+    
         Layer2D lPath = tmx.GetLayer("path");
+       
         // 開始 地点 を 検索
         Vec2D pos = lPath.Search(CHIP_PATH_START);
         // 座標 リスト を 作成 
